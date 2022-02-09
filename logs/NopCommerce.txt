@@ -1,0 +1,5 @@
+[INFO ] [2022-02-09 08:42:23,931] open  'CHROME' browser
+[INFO ] [2022-02-09 08:42:30,545] TC_01 - Step_01 : Validate email text box is displayed
+[INFO ] [2022-02-09 08:42:30,618] TC_01 - Step_02 : Validate password text box is displayed
+[INFO ] [2022-02-09 08:42:30,952] TC_02 - Step_01 : SendKey to Email text box
+[INFO ] [2022-02-09 08:42:31,025] TC_01 - Step_02 : SendKey to password text box 
