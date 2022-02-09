@@ -1,5 +1,15 @@
-[INFO ] [2022-02-09 08:42:23,931] open  'CHROME' browser
-[INFO ] [2022-02-09 08:42:30,545] TC_01 - Step_01 : Validate email text box is displayed
-[INFO ] [2022-02-09 08:42:30,618] TC_01 - Step_02 : Validate password text box is displayed
-[INFO ] [2022-02-09 08:42:30,952] TC_02 - Step_01 : SendKey to Email text box
-[INFO ] [2022-02-09 08:42:31,025] TC_01 - Step_02 : SendKey to password text box 
+[INFO ] [2022-02-09 13:10:48,942] open  'CHROME' browser
+[INFO ] [2022-02-09 13:10:52,771] TC_01 - Step_01 : Click to Register link at header
+[INFO ] [2022-02-09 13:10:54,593] TC_01 - Step_02 : Enter FirstName
+[INFO ] [2022-02-09 13:10:54,790] TC_01 - Step_03 : Enter LastName
+[INFO ] [2022-02-09 13:10:54,962] TC_01 - Step_04 : Enter Email
+[INFO ] [2022-02-09 13:10:55,154] TC_01 - Step_05 : Enter Password
+[INFO ] [2022-02-09 13:10:55,339] TC_01 - Step_06 : Enter Confirm Password
+[INFO ] [2022-02-09 13:10:55,512] TC_01 - Step_07 : Click to REGISTER button
+[INFO ] [2022-02-09 13:10:58,142] TC_01 - Step_08 : Verify Success Message Displayed
+[INFO ] [2022-02-09 13:10:58,257]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-02-09 13:10:58,263] TC_02 - Step_01 : logout to HomePage 
+[INFO ] [2022-02-09 13:10:59,971] TC_02 - Step_02 : click To Login Link  
+[INFO ] [2022-02-09 13:11:00,754] TC_02 - Step_03 : Enter to Email 
+[INFO ] [2022-02-09 13:11:00,944] TC_02 - Step_04 : Enter to Password 
+[INFO ] [2022-02-09 13:11:01,118] TC_02 - Step_04 : Click to Login Button 

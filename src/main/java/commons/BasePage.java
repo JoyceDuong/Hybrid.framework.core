@@ -12,8 +12,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import static java.util.concurrent.TimeUnit.*;
-
 public class BasePage {
 
     public BasePage getBasePage() {
@@ -131,7 +129,7 @@ public class BasePage {
         getElement(driver, getDynamicLocator(locator, params)).click();
     }
 
-    public void sendKeysToElement(WebDriver driver, String locator, String value) {
+    public void sendKeysToElement(WebDriver driver, String locator,String value) {
         getElement(driver, locator).clear();
         getElement(driver, locator).sendKeys(value);
     }

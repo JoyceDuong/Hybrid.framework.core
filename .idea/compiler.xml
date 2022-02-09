@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="vnext.framework.core" />
+        <module name="com.vnext.selenium" />
       </profile>
     </annotationProcessing>
   </component>
