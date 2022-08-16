@@ -1,6 +1,7 @@
 package pageObjects;
 
 import commons.BasePage;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import pageUIs.BasePageUI;
 import pageUIs.HomePageUI;

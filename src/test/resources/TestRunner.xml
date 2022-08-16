@@ -6,7 +6,7 @@
 
     <listeners>
         <listener class-name="commons.MethodListener" />
-        <listener class-name="reportConfigs.ReportListener"/>
+        <listener class-name="reportConfigs.AllureTestListener" />
     </listeners>
 
     <test name="Demo Site">

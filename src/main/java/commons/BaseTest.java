@@ -6,6 +6,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -28,6 +29,9 @@ public class BaseTest {
 
     protected BaseTest() {
         log = LogManager.getLogger(getClass());
+    }
+    public WebDriver getDriver() {
+        return driver;
     }
 
     private enum BROWSER {
@@ -54,7 +58,9 @@ public class BaseTest {
         }
         driver.get(appUrl);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        Dimension d = new Dimension(420,600);
+        //Resize the current window to the given dimension
+        driver.manage().window().setSize(d);
         return driver;
     }
 
